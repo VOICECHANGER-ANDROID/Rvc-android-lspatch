@@ -1,1 +1,5 @@
-
+cd Rvc-android-lspatch
+cat > settings.gradle << 'EOF'
+rootProject.name = "RvcAndroid"
+include(":app")
+EOF
